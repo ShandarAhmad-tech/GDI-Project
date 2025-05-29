@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-27T16:49:27 IST" name="Login" finished-at="2025-05-27T16:50:24 IST" duration-ms="56771">
+    <groups>
+    </groups>
+    <test started-at="2025-05-27T16:49:27 IST" name="chrome" finished-at="2025-05-27T16:50:24 IST" duration-ms="56771">
+      <class name="testCases.TC001_Login_Test">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.TC001_Login_Test@4c550889]" started-at="2025-05-27T16:49:27 IST" name="setupBrowser" finished-at="2025-05-27T16:49:54 IST" duration-ms="26303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="LoginRun()[pri:0, instance:testCases.TC001_Login_Test@4c550889]" started-at="2025-05-27T16:49:54 IST" name="LoginRun" finished-at="2025-05-27T16:50:24 IST" duration-ms="30243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRun -->
+      </class> <!-- testCases.TC001_Login_Test -->
+    </test> <!-- chrome -->
+  </suite> <!-- Login -->
+</testng-results>

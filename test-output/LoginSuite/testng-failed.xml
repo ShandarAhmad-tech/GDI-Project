@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFox(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <parameter name="URL" value="https://appgdiqa.gdiindia.com/j4/default.jsp"/>
+    <classes>
+      <class name="testCases.TC001_Login_Test">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="TestRun"/>
+        </methods>
+      </class> <!-- testCases.TC001_Login_Test -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+  <test thread-count="5" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="URL" value="https://appgdiqa.gdiindia.com/j4/default.jsp"/>
+    <classes>
+      <class name="testCases.TC001_Login_Test">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="TestRun"/>
+        </methods>
+      </class> <!-- testCases.TC001_Login_Test -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->
